@@ -12,7 +12,7 @@ predict = "HMOV"
 X = np.array(data.drop([predict], axis=1))
 y = np.array(data[predict])
 best = 0
-for _ in range(10000):
+for _ in range(5):
     # training model a bunch of times and taking the best one
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.1)
     linear = linear_model.LinearRegression()

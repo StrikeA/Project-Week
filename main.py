@@ -3,7 +3,7 @@ import pandas as pd
 import sklearn
 from sklearn import linear_model
 
-data = pd.read_csv("possum.csv")
+data = pd.read_csv("Basket Ball Data.csv")
 # Use pandas to read the csv
 data = data[["HMOV", "HASRS", "AASRS"]]
 # Define columns being used

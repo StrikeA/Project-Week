@@ -4,8 +4,8 @@ import sklearn
 import pickle
 from sklearn import linear_model
 
-homeasrs = float(input("What is the home Adjusted SRS"))
-awayasrs = float(input("What is the away Adjusted SRS"))
+homeasrs = float(input("What is the home Adjusted SRS? "))
+awayasrs = float(input("What is the away Adjusted SRS? "))
 
 pickle_in = open("BasketBall_Model.pickle", "rb")
 linear = pickle.load(pickle_in)

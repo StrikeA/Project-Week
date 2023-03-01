@@ -13,7 +13,7 @@ predict = "HMOV"
 X = np.array(data.drop([predict], axis=1))
 y = np.array(data[predict])
 best = 0
-while best < 0.98:
+while best < 0.97:
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.05)
     # splitting data into train and test sets
     linear = linear_model.LinearRegression()

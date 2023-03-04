@@ -2,7 +2,7 @@ games = int(input("How many games did they play"))
 ofe = int(input("of how many"))
 minpg = float(input("How many minutes per game"))
 wsper48 = float(input("How many wins per 48"))
-teamsrsabs = float(input("WHat is the absolute value of team srs"))
+teamsrsabs = float(input("What is the absolute value of team srs"))
 teamsrsabs2 = teamsrsabs
 if teamsrsabs < 1:
     teamsrsabs2 = 1

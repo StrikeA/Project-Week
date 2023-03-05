@@ -3,7 +3,7 @@ import pickle
 import csv
 
 # Dictionary
-dict = {"HASRS": 0.0, "AASRS": 0.0, "HMOV": None}
+dict = {"HASRS": None, "AASRS": None, "HMOV": None}
 
 homeasrs = float(input("What is the home Adjusted SRS? "))
 awayasrs = float(input("What is the away Adjusted SRS? "))

@@ -24,3 +24,4 @@ linear = pickle.load(pickle_in)
 test_data = np.array([[homeasrs, awayasrs]])
 prediction = linear.predict(test_data)
 print(prediction)
+#%%
